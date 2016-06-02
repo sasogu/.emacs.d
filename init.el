@@ -40,9 +40,9 @@
                         iedit
                         magit
                         move-dup
-                        ;;powerline
                         nginx-mode
                         php-mode
+                        pyvenv
                         smart-mode-line
 			smart-mode-line-powerline-theme
                         rainbow-delimiters
