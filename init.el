@@ -151,6 +151,8 @@
 (flycheck-add-mode 'javascript-eslint 'web-mode)
 
 (setq web-mode-comment-style 2)
+(setq web-mode-enable-auto-quoting nil)
+
 (defun my-web-mode-hook ()
   "Hooks for Web mode."
   (setq web-mode-markup-indent-offset 2)
