@@ -426,7 +426,8 @@ by using nxml's indentation rules."
   '(ace-jump-mode-enable-mark-sync))
 (define-key global-map (kbd "C-x SPC") 'ace-jump-mode-pop-mark)
 
-(global-set-key (kbd "M-o") 'ag-project)
+(global-set-key (kbd "M-o") 'ag)
+(global-set-key (kbd "M-O") 'ag-project)
 
 ;; Completion words longer than 4 characters
 (custom-set-variables
