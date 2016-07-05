@@ -119,6 +119,7 @@
 (global-set-key [f8] 'linum-mode)
 
 (add-hook 'prog-mode-hook #'hs-minor-mode)
+(add-hook 'prog-mode-hook #'subword-mode)
 
 (global-set-key (kbd "C-'") 'hs-toggle-hiding)
 (global-set-key [f7] 'hs-hide-all)
