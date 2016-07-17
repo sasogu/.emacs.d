@@ -455,4 +455,5 @@ by using nxml's indentation rules."
 
 (dumb-jump-mode)
 
+(require 'iedit)
 ;;; init.el ends here
