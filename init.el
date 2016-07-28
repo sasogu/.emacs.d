@@ -10,6 +10,7 @@
 (require 'ensure-packages)
 
 (setq ensure-packages '(ac-cider
+			smart-mode-line-powerline-theme
                         ac-ispell
                         ac-js2
                         ace-flyspell
@@ -22,6 +23,7 @@
                         clojure-mode
                         clojure-mode-extra-font-locking
                         clojure-snippets
+                        dockerfile-mode
                         dumb-jump
                         expand-region
                         flx-ido
@@ -30,24 +32,24 @@
                         flycheck-pos-tip
                         ggtags
                         gist
-                        goto-last-change
                         git-commit
+                        goto-last-change
                         highlight-symbol
+                        iedit
                         jedi
                         js2-mode
                         json-mode
                         json-reformat
-                        iedit
+                        lua-mode
                         magit
                         move-dup
                         nginx-mode
                         php-mode
                         pyvenv
-                        smart-mode-line
-			smart-mode-line-powerline-theme
                         rainbow-delimiters
                         react-snippets
                         restclient
+                        smart-mode-line
                         smartparens
                         thrift
                         web-mode
